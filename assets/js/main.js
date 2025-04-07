@@ -36,7 +36,7 @@ const products = [
     }
   },
   {
-    target: "pe200",
+    target: "pp200",
     title: "Геотекстиль нетканый Интатекс 200",
     image: "assets/img/products/200.png",
     alt: "Геотекстиль Интатекс 200",
@@ -58,6 +58,7 @@ const products = [
 function renderProducts() {
   const container = document.querySelector('.products-grid');
   if (!container) return;
+
   
   let html = "";
   products.forEach(product => {
@@ -117,7 +118,7 @@ function renderProducts() {
             
             <div class="product-actions">
                 <a href="#popup:myform" class="btn btn-primary">Получить КП</a>
-                <a href="#popup:table1" class="btn btn-secondary">Подробная таблица</a>
+                <a href="#popup:${product.target === 'pp200' ? 'table2' : 'table1'}" class="btn btn-secondary">Подробная таблица</a>
             </div>
         </div>       
     </div>
@@ -167,8 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
   renderProducts();
   initFilter();
   
-  // Далее идут остальные модули:
-  
+
   // Модуль: Мобильное меню
   function initMobileMenu() {
     const menuButton = document.querySelector('.menu-btn');
@@ -436,39 +436,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   initFilter();
   
-  // Модуль: Анимация счетчиков
-  function initCounters() {
-    const counters = document.querySelectorAll('[data-counter]');
-    const animateCounter = (element) => {
-      const target = parseInt(element.getAttribute('data-counter'));
-      const duration = 2000;
-      let startTime = null;
-      const suffixMatch = element.innerHTML.match(/<span.*<\/span>/);
-      const suffix = suffixMatch ? suffixMatch[0] : '';
-      function step(timestamp) {
-        if (!startTime) startTime = timestamp;
-        const progress = Math.min((timestamp - startTime) / duration, 1);
-        const value = Math.floor(progress * target);
-        element.innerHTML = value.toLocaleString() + suffix;
-        if (progress < 1) {
-          requestAnimationFrame(step);
-        }
-      }
-      requestAnimationFrame(step);
-    };
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          animateCounter(entry.target);
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.3 });
-    counters.forEach(counter => {
-      observer.observe(counter);
-    });
-  }
-  initCounters();
+
   
   // Модуль: Видео промо попап
   function initVideoPromoPopup() {
@@ -515,7 +483,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   initVideoPromoPopup();
   
-  // Модуль: Карусель отзывов (отзывы задаются в HTML)
+  // Модуль: Карусель отзывов 
   function initReviewsCarousel() {
     const carouselEl = document.getElementById('reviewsCarousel');
     if (!carouselEl) return;
