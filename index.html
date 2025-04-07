@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <style type="text/css"></style>
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+    <link href="assets/img/fav.png" rel="icon">
+    <link href="assets/img/fav.png" rel="apple-touch-icon"> 
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <!-- custom -->
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+
+
+
+<div class="header-container">
+    <div class=" mx-auto px-3" style="max-width: 1200px;">
+      <div class="header-content row">
+        <!-- Логотип -->
+        <div class="col-4 col-xl-2 col-md-3 pt-2 px-3">
+            <a href="index.html" class="logo">
+              <img src="assets/img/logo 2.png" alt="intago kazakstan" class="logoimg">
+            </a>        
+        </div>
+        <div class="col-7 col-xl-4 col-md-7 comp-name">
+            Геосинтетика, сделанная в Казахстане
+        </div>       
+        <div class="col-6 col-md-6 text-end py-3 contacts-box col-xl-5">
+            <!-- Социальные кнопки -->
+            <a href="https://wa.me/77789303999" target="_blank" class="social-link">
+                <img src="assets/img/wa.png" alt="WhatsApp">
+            </a>
+            <a href="mailto:Office@intagokazakhstan.kz" target="_blank" class="social-link">
+                <img src="assets/img/email.png" alt="email">
+            </a>
+            <a href="" target="_blank" class="social-link">
+                <img src="assets/img/tele.png" alt="Telegram">
+            </a>
+        <!-- Кнопка контактов -->
+            <a href="#contacts" style="text-decoration: none;">   
+              <button class="contacts-btn me-2">Контакты</button>
+            </a>    
+            <!-- Кнопка запроса -->
+
+            <a href="#popup:myform" style="text-decoration: none;">
+                <button class="request-btn">Получить КП</button>
+            </a>
+
+        </div>
+        <div class="col-2 col-xl-1 сol-md-1 py-3 px-0">
+            <!-- Кнопка меню (мобильная) -->
+            <a href="" class="menu-btn">
+              <img src="https://static.tildacdn.com/tild3436-3235-4539-a261-353865396332/Button-L_3.svg" alt="Меню">
+            </a>            
+        </div>
+
+        
+        <!-- Тень внизу -->
+        <div class="shadow-line"></div>
+      </div>
+    </div>
+</div>
+
+<!-- меню мобилка -->
+<div class="mobile-menu-container" id="mobileMenu">
+  <button class="mobile-menu-close" aria-label="Закрыть меню">
+    <span></span>
+    <span></span>
+  </button>
+
+  <div class="mobile-menu-content">
+    <!-- Остальное содержимое меню без изменений -->
+    <div class="mobile-menu-logo">
+      <a href="index.html">
+        <img src="assets/img/logo 2.png" alt="intago kazakstan" class="w-100">
+      </a>
+    </div>
+
+    <nav class="mobile-menu-nav">
+      <ul>
+        <li><a href="#advantages">Преимущества</a></li>
+        <li><a href="#products">Каталог</a></li>
+        <li><a href="#about-us">О компании</a></li>
+        <li><a href="#certificates">Благодарственные письма</a></li>
+        <li><a href="#awards">Награды</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#news">Новости</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+        <li><a href="#contacts">Прочая продукция</a></li>
+      </ul>
+    </nav>
+
+    <div class="mobile-menu-social">
+      <div class="mobile-menu-social-links">
+        <a href="https://wa.me/77789303999" target="_blank" rel="nofollow noopener" aria-label="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="mailto:Office@intagokazakhstan.kz" target="_blank" rel="nofollow noopener" aria-label="Telegram">
+            <i class="bi bi-envelope-at"></i>
+        </a>
+        <a href="" target="_blank" rel="nofollow noopener" aria-label="WhatsApp">
+            <i class="bi bi-telegram"></i>
+        </a>
+      </div>
+      
+      <div class="mobile-menu-footer">
+        <span>© 2025 Интаго. Все права защищены.</span><br>
+        <a href="policy.html">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- главная -->
+<div id="geo-hero" class="geo-hero">
+    <!-- Видео фон -->
+    <!--     <div class="geo-hero__video">
+        <video class="geo-hero__video-element" autoplay loop muted playsinline>
+            <source src="https://geo-sm.ru/Геотекстиль.mp4" type="video/mp4">
+        </video>
+    </div> -->
+
+    <!-- Градиентная подложка -->
+    <div class="geo-hero__gradient"></div>
+
+    <!-- Контент -->
+    <div class="geo-hero__content">
+        <h1 class="geo-hero__title">Геотекстиль с доставкой по всей стране – напрямую от производителя!</h1>
+        <p class="geo-hero__description">Геосинтетика «Интатекс» создаётся на высокотехнологичном оборудовании, отвечающем мировым стандартам качества.</p>
+        
+        <div class="geo-hero__buttons">
+            <div class="row">
+                <div class="col-6 py-2">
+                    <a href="#popup:myform" class="geo-hero__btn geo-hero__btn--primary w-100">Получить КП</a>
+                </div>
+                <div class="col-6  py-1">
+                    <a href="#popup:company" class="geo-hero__btn-video" id="video-btn">
+                        <div class="geo-hero__video-preview" style="background-image: url('https://img.youtube.com/vi/pGuLvuKiVik/1.jpg')">
+                            <div class="geo-hero__play-icon"></div>
+                        </div>
+                        <span class="geo-hero__video-text">Экскурсия на производство</span>
+                    </a>
+                </div>
+            </div>
+            
+            
+
+        </div>
+    </div>
+
+    <!-- Преимущества -->
+    <div class="geo-hero__features">
+        <div class="geo-hero__feature">
+            <div class="geo-hero__feature-icon"><i class="bi bi-cash-coin"></i></div>
+            <span class="geo-hero__feature-text">Гарантия лучших цен</span>
+        </div>
+        <div class="geo-hero__feature">
+            <div class="geo-hero__feature-icon"><i class="bi bi-percent"></i></div>
+            <span class="geo-hero__feature-text">Система скидок</span>
+        </div>
+        <div class="geo-hero__feature">
+            <div class="geo-hero__feature-icon"><i class="bi bi-truck"></i></div>
+            <span class="geo-hero__feature-text">Быстрая доставка</span>
+        </div>
+        <div class="geo-hero__feature">
+            <div class="geo-hero__feature-icon"><i class="bi bi-clock"></i></div>
+            <span class="geo-hero__feature-text">Отсрочка платежа</span>
+        </div>
+    </div>
+</div>
+
+<!-- Видео попап -->
+<div class="geo-popup" id="popup:company">
+    <div class="geo-popup__overlay"></div>
+    <div class="geo-popup__container">
+        <button class="geo-popup__close" aria-label="Закрыть">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6l12 12" stroke="#fff" stroke-width="2"/>
+            </svg>
+        </button>
+        <div class="geo-popup__video">
+            <iframe src="https://www.youtube.com/embed/pGuLvuKiVik?si=tSVveewtJHEdDmMQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<!-- Popup Form -->
+<div class="geo-form-popup" id="popup:myform">
+    <div class="geo-form-popup__overlay"></div>
+    <div class="geo-form-popup__container">
+        <button class="geo-form-popup__close" aria-label="Закрыть">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6l12 12" stroke="#000" stroke-width="2"/>
+            </svg>
+        </button>
+        
+        <div class="geo-form">
+            <h2 class="geo-form__title">Заполните форму</h2>
+            <p class="geo-form__description">
+                И в ближайшее время с вами свяжется наш менеджер для консультации по интересующим вас вопросам.<br><br>
+                <strong>Отгрузки с производства осуществляются только юридическим лицам</strong>
+            </p>
+            
+            <form id="geo-kp-form">
+                <div class="geo-form__group">
+                    <label class="geo-form__label" for="geo-name">Ваше имя</label>
+                    <input type="text" id="geo-name" class="geo-form__input" required>
+                    <div class="geo-form__error">Пожалуйста, введите ваше имя</div>
+                </div>
+                
+                <div class="geo-form__group">
+                    <label class="geo-form__label" for="geo-phone">Номер телефона</label>
+                    <div class="geo-form__phone-wrapper">
+                        <span class="geo-form__phone-prefix">+7</span>
+                        <input type="tel" id="geo-phone" class="geo-form__phone-input" placeholder="(999) 999-99-99" required>
+                    </div>
+                    <div class="geo-form__error">Пожалуйста, введите корректный номер телефона</div>
+                </div>
+                
+                <div class="geo-form__group">
+                    <label class="geo-form__label" for="geo-email">E-mail</label>
+                    <input type="email" id="geo-email" class="geo-form__input" required>
+                    <div class="geo-form__error">Пожалуйста, введите корректный email</div>
+                </div>
+                
+                <div class="geo-form__group">
+                    <label class="geo-form__label" for="geo-density">Что вас интересует?</label>
+                    <select id="geo-density" class="geo-form__select" required>                       
+                        <option value="">Выберите материал</option>
+                        <option value="Геотекстиль">Геотекстиль</option>
+                        <option value="Геомембрана">Геомембрана</option>
+                        <option value="Геосетка">Геосетка</option>
+                        <option value="Георешетка">Георешетка</option>
+                    </select>
+                    <div class="geo-form__error">Пожалуйста, выберите материал</div>
+                </div>
+                
+                <div class="geo-form__submit">
+                    <button type="submit" class="geo-form__submit-btn">Отправить заявку</button>
+                </div>
+            </form>
+            
+            <div class="geo-form__footer">
+                <a href="policy.html">Согласие на обработку персональных данных</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--фильтр -->
+<div class="geo-filter">
+        <h2 class="geo-filter__title" id="products">Выберите нужный вариант:</h2>
+        
+        <div class="geo-filter__tab-group">     
+            <div class="geo-filter__tabs">
+                <div class="geo-filter__tab geo-filter__tab--active" data-density="pe150">ПЭ 150</div>
+                <div class="geo-filter__tab" data-density="pe200">ПЭ 200</div>
+                <div class="geo-filter__tab" data-density="pe250">ПЭ 250</div>
+                <div class="geo-filter__tab" data-density="pe300">ПЭ 300</div>
+                <div class="geo-filter__tab" data-density="pe350">ПЭ 350</div>
+                <div class="geo-filter__tab" data-density="pe375">ПЭ 375</div>
+                <div class="geo-filter__tab" data-density="pe400">ПЭ 400</div>
+                <div class="geo-filter__tab" data-density="pe450">ПЭ 450</div>
+                <div class="geo-filter__tab" data-density="pe500">ПЭ 500</div>
+                <div class="geo-filter__tab" data-density="pe550">ПЭ 550</div>
+                <div class="geo-filter__tab" data-density="pe600">ПЭ 600</div>
+                <div class="geo-filter__tab" data-density="pe650">ПЭ 650</div>
+                <div class="geo-filter__tab" data-density="pe700">ПЭ 700</div>
+                <div class="geo-filter__tab" data-density="pe750">ПЭ 750</div>
+                <div class="geo-filter__tab" data-density="pe800">ПЭ 800</div>
+            </div>     
+            <div class="geo-filter__tabs">
+                <div class="geo-filter__tab" data-density="pp150">ПП 150</div>
+                <div class="geo-filter__tab" data-density="pp200">ПП 200</div>
+                <div class="geo-filter__tab" data-density="pp250">ПП 250</div>
+                <div class="geo-filter__tab" data-density="pp300">ПП 300</div>
+                <div class="geo-filter__tab" data-density="pp350">ПП 350</div>
+                <div class="geo-filter__tab" data-density="pp375">ПП 375</div>
+                <div class="geo-filter__tab" data-density="pp400">ПП 400</div>
+                <div class="geo-filter__tab" data-density="pp450">ПП 450</div>
+                <div class="geo-filter__tab" data-density="pp500">ПП 500</div>
+                <div class="geo-filter__tab" data-density="pp550">ПП 550</div>
+                <div class="geo-filter__tab" data-density="pp600">ПП 600</div>
+                <div class="geo-filter__tab" data-density="pp700">ПП 700</div>
+                <div class="geo-filter__tab" data-density="pp800">ПП 800</div>
+            </div>
+        </div>
+        
+        <div class="geo-filter__notice">
+            Отгрузки с производства осуществляются только юридическим лицам
+        </div>
+</div>
+
+<!-- Попап на таблица 1-2 -->
+<div id="universal-popup" class="universal-popup-overlay">
+    <div class="universal-popup-container">
+        <div class="universal-popup-content">
+            <button class="universal-popup-close">&times;</button>
+            <div class="universal-popup-img-container">
+                <img id="popup-image" src="" alt="Таблица" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- вывод продуктов -->
+<div class="products-grid"></div>
+
+<!-- метрики -->
+<div class=" mx-auto py-5 bgmetric mt-4 mb-4" style="max-width: 1200px;">
+    <div class="row m-0">
+    <div class="col-8 col-md-6">
+        <h1 class="metrics-block__title">Наши показатели</h1>
+        <h3 class="metob2">Объем производства — 15 000 000 м2 в год</h3>
+        <div class="row mt-5">
+            <div class="col-12 col-md-4 mt-3">
+                <div class="row m-0">
+                    <div class="col-md-12 col-2 px-0 text-center">
+                        <img src="assets/img/ge.png" class="metric-icon">
+                    </div>
+                    <div class="col-md-12 col-10">
+                        <h3 class="metric-card__value mt-2">650 кг / час</h3>
+                    </div>
+                </div>
+                <p class="metric-card__description">Производительность линии</p>
+
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+                <div class="row px-0">
+                    <div class="row m-0">
+                        <div class="col-md-12 col-2 px-0 text-center">
+                            <img src="assets/img/ge2.png" class="metric-icon">
+                        </div>
+                        <div class="col-md-12 col-10 text-start">
+                            <h3 class="metric-card__value mt-2">1 м - 6 м</h3>                            
+                        </div>
+                    </div>      
+                    <p class="metric-card__description">Ширина полотна "Интатекс"</p>              
+                </div>
+                
+             
+            </div>
+            <div class="col-12 col-md-4 mt-3">
+                <div class="row m-0">
+                        <div class="col-md-12 col-2 px-0 text-center">
+                            <img src="assets/img/ge3.png" class="metric-icon">
+                        </div>
+                        <div class="col-md-12 col-10 text-start mt-2">
+                            <h3 class="metric-card__value">150 - 800 г / м2</h3>
+                            
+                        </div>
+                    </div>      
+                <p class="metric-card__description">Плотность полотна "Интатекс"</p>
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="col-4 col-md-6">
+        
+    </div>
+    </div>
+    <h5 class="text-center metob">Объем производства — 15 000 000 м2 в год</h5>
+</div>
+
+<!--счетчик -->
+<section class="company-stats">
+    <div class="stats-header">
+        <h2 class="company-stats__title">Компания в цифрах</h2>
+       <div class="reviews-link">
+            <img src="assets/img/company.png" alt="Логотипы клиентов" class="reviews-link__logo">
+            <a href="#reviews" class="reviews-link__text">
+                Смотреть отзывы наших клиентов
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="reviews-link__icon">
+                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    
+    <div class="stats-grid">
+        <!-- Первый ряд -->
+        <div class="stat-card">
+            <div class="stat-card__value" data-counter="100">0<span>+</span></div>
+            <p class="stat-card__label">клиентов</p>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-card__value" data-counter="4000">0<span>Т</span></div>
+            <p class="stat-card__label">продукции в год</p>
+        </div>
+        
+        <!-- Второй ряд -->
+        <div class="stat-card">
+            <div class="stat-card__value" data-counter="1000">0<span>+</span></div>
+            <p class="stat-card__label">отгрузок в год</p>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-card__value" data-counter="2000">0<span>м²</span></div>
+            <p class="stat-card__label">производственные комплексы</p>
+        </div>
+        
+        <!-- Третий ряд -->
+        <div class="stat-card">
+            <div class="stat-card__value" data-counter="1000">0<span>м²</span></div>
+            <p class="stat-card__label">складские помещения</p>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-card__value" data-counter="20">0<span>+</span></div>
+            <p class="stat-card__label">регионов отгрузок</p>
+        </div>
+    </div>
+</section>
+
+<!--почему мы -->
+<section class="advantages-section" id="advantages">
+  <div class="advantages-container">
+    <h2 class="advantages-title">Почему мы?</h2>
+    
+    <div class="row">  
+        <div class="col-12 col-md-6 col-xl-6 mt-2  px-1">
+            <div class="advantage-card h-100" style="background-image: url(assets/img/back.png); background-size: cover;">
+                <div class="advantage-image">  
+                </div>
+                <div class="advantage-content">
+                  <div class="advantage-icon">
+                    <i class="bi bi-nut"></i>
+                  </div>
+                  <h3>Современный завод с новейшим оборудованием</h3>
+                  <p>В 2024 году мы запустили новое производство, оснащённое передовыми технологиями, что позволяет выпускать продукцию высокого качества в больших объёмах</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class=" col-12 col-md-6 col-xl-3 mt-2 px-1">
+            <div class="advantage-card h-100">
+                <div class="advantage-content ">
+                    <div class="advantage-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <h3>Гарантированное качество на каждом этапе</h3>
+                    <p>Мы тщательно контролируем весь производственный процесс — от выбора сырья до упаковки и хранения готовой продукции. Собственная лаборатория позволяет проводить строгие испытания и подтверждать соответствие продукции международным стандартам.</p>
+                </div>
+            </div>
+        </div>
+           
+        <div class=" col-12 col-md-6 col-xl-3 mt-2 px-1">
+            <div class="advantage-card h-100">
+                <div class="advantage-content">
+                    <div class="advantage-icon">
+                        <i class="bi bi-clock-history"></i>
+                    </div>
+                    <h3>Оперативные поставки по Казахстану и за его пределы</h3>
+                    <p>Благодаря мощностям нового завода и налаженной логистике мы гарантируем своевременную отгрузку продукции даже в больших объёмах.</p>
+                </div>
+            </div>
+        </div>
+    <!-- slde 3 -->
+    <div class="col-12 mt-2 col-md-6 col-xl-3 mt-2 px-1">
+        <div class="advantage-card h-100">
+            <div class="advantage-content">
+                <div class="advantage-icon">
+                    <i class="bi bi-microsoft-teams"></i>
+                  </div>
+                  <h3>Профессиональная команда и развитие сотрудников</h3>
+                  <p>Мы вкладываем в развитие наших специалистов, обеспечиваем обучение и повышение квалификации, что позволяет поддерживать высокий уровень производства и сервиса.</p>
+                </div>
+            </div>
+        </div>
+        <div class="advantage-card col-12 mt-2 col-md-6 col-xl-3 mt-2 px-1">
+            <div class="advantage-content">
+              <div class="advantage-icon">
+                <i class="bi bi-check-circle"></i>
+              </div>
+              <h3>Единственная в Центральной Азии линия по производству геотекстиля шириной 6 метров</h3>
+              <p>Наш завод оснащён уникальной высокотехнологичной линией, обеспечивающей выпуск геотекстиля с шириной 6 метров — это делает нас лидером в регионе.</p>
+            </div>
+        </div>
+      
+      <div class=" col-12 col-md-6 col-xl-6 mt-2 px-1" >
+        <div class="advantage-card" style="background-image: url(assets/img/back2.png); background-size: cover;">
+            <div class="advantage-image">
+   
+            </div>
+            <div class="advantage-content">
+              <div class="advantage-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3>Экологичный и надёжный материал</h3>
+              <p>Наш геотекстиль производится из 100% первичных полимерных волокон, что обеспечивает его долговечность, экологичность и соответствие высоким стандартам безопасности.</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+ <!-- О Компании -->
+<section class="about-company" id="about-us">
+  <!-- Верхний блок: заголовок и описание -->
+  <div class="top-section">
+    <div class="title-block">
+      <h2>О компании Интаго Казахстан</h2>
+    </div>
+    <div class="description-block">
+      <h3>Компания Интаго Казахстан — ведущий производитель и поставщик геосинтетических материалов в Республике Казахстан. С момента запуска нашего нового завода в 2024 году мы специализируемся на производстве геотекстиля, геомембран, георешёток и других материалов, применяемых в дорожном, промышленном и гражданском строительстве, а также в сельском хозяйстве.
+       
+      </h3>
+    </div>
+  </div>
+
+  <!-- Нижний блок: слово директора и два описания ДОБАВИТЬ ФОТО-->
+  <div class="bottom-section">
+    <div class="director-block">
+      <div class="director-image">
+        <img src="assets/img/dir.png" alt="директор Виктор Парекко">
+      </div>
+      <div class="director-info">
+        <h3>Генеральный директор Интаго Казахстан</h3>
+        <p>Асылбеков Азамат Бисалыулы</p>
+        <!-- <div class="watch-link">
+          <img src="https://static.tildacdn.com/tild6265-3432-4533-a231-306531356334/CaretLeft_4.svg" alt="">
+          <h3><a href="" role="button" aria-haspopup="dialog">Смотреть</a></h3>
+        </div> -->
+      </div>
+    </div>
+    <div class="info-block">
+      <div class="divider"></div>
+      <h3>Наше производство осуществляется под собственной торговой маркой «Интатекс» на высокотехнологичном оборудовании, соответствующем международным стандартам качества. Мы гордимся тем, что смогли завоевать доверие более 1000+ клиентов, включая крупных игроков строительной отрасли в Казахстане и за его пределами.</h3>
+    </div>
+    <div class="info-block">
+      <div class="divider"></div>
+      <h3> В нашей работе мы ориентированы на инновации и высокое качество, что позволяет нам обеспечивать надёжность и долговечность наших материалов для самых ответственных проектов.   </h3>
+    </div>
+  </div>
+</section>
+
+<!-- видео презентация -->
+<section class="video-promo-section">
+  <!-- Фоновое изображение с темным оверлеем -->
+  <div class="video-promo-bg">
+    <img src="assets/img/11.jpeg" alt="" aria-hidden="true">
+    <div class="dark-overlay"></div>
+  </div>
+
+  <!-- Кнопка для открытия видео -->
+  <div class="video-button-container">
+    <button class="video-popup-button" id="open-video-popup">
+      <span>Смотреть видео о компании</span>
+      <img src="Button-L_5 1.png" alt="" class="play-icon">
+    </button>
+  </div>
+
+  <!-- Попап для видео -->
+  <div id="video-popup" class="video-popup">
+    <div class="popup-overlay"></div>
+    <div class="popup-content">
+      <button class="close-popup">&times;</button>
+      <div class="video-container">
+        <!-- iframe будет добавлен скриптом -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="awards-gallery-section" id="certificates">
+  <div class="awards-gallery-container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h2 class="awards-gallery-title">Благодарственные письма</h2>
+            <!-- Навигация -->
+            <div class="awards-gallery-nav">
+              <button class="awards-gallery-prev awards-gallery-nav-btn">
+                <i class="bi bi-chevron-left"></i>
+              </button>
+              <button class="awards-gallery-next awards-gallery-nav-btn">
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>    
+        </div>
+        <div class="col-12 col-md-6">
+    <div class="awards-gallery-carousel">
+      <div class="awards-gallery-items">
+        <!-- наградs -->
+        <div class="awards-gallery-card">
+          <div class="awards-gallery-image-container">
+            <img src="assets/img/bla/Интаго Казахстан-1.png" alt="Награда" class="awards-gallery-image">
+
+            <button class="awards-gallery-zoom-btn" data-img="assets/img/bla/Интаго Казахстан-1.png">
+              <span class="me-2">Смотреть</span>
+              <i class="bi bi-zoom-in"></i>
+            </button>
+          </div>
+          <p>ТОО «Севис НС»</p>
+        </div>
+        <!--  -->
+        <div class="awards-gallery-card">
+          <div class="awards-gallery-image-container">
+            <img src="assets/img/bla/Рекомендательное письмо-1.png" alt="Награда" class="awards-gallery-image">
+            <button class="awards-gallery-zoom-btn" data-img="assets/img/bla/Рекомендательное письмо-1.png">
+                 <span class="me-2">Смотреть</span>
+              <i class="bi bi-zoom-in"></i>
+            </button>
+          </div>
+          <p>AO «Тодини»</p>
+        </div>
+        <!-- ... остальные 4 карточки ... -->
+        <div class="awards-gallery-card">
+          <div class="awards-gallery-image-container">
+            <img src="assets/img/bla/Письмо.-1.png" alt="Награда" class="awards-gallery-image">
+            <button class="awards-gallery-zoom-btn" data-img="assets/img/bla/Письмо.-1.png">
+                 <span class="me-2">Смотреть</span>
+              <i class="bi bi-zoom-in"></i>
+            </button>
+          </div>
+          <p>AO «Акжол курылыс»</p>
+        </div>
+      </div>
+    </div>            
+        </div>
+    </div>
+    
+    
+
+    
+
+  </div>
+  
+  <!-- Попап для увеличенного изображения -->
+  <div class="awards-gallery-popup">
+    <div class="awards-gallery-popup-overlay"></div>
+    <div class="awards-gallery-popup-content">
+      <button class="awards-gallery-popup-close">
+        <i class="bi bi-x-lg"></i>
+      </button>
+      <img src="" alt="" class="awards-gallery-popup-image">
+    </div>
+  </div>
+</section>
+
+<!-- награды -->
+<section class="diplomas-section" id="reviewsCarousel">
+  <div class="diplomas-container">
+    <div class="diplomas-header">
+      <img src="assets/img/Certificate 1.png" 
+           alt="Иконка диплома" 
+           class="diplomas-header__icon">
+      <h2 class="diplomas-header__title">Награды и признания компаниии</h2>
+    </div>
+
+    <div class="diplomas-grid">
+      <!-- Первый ряд -->
+      <div class="diploma-card">
+        <div class="diploma-card__logo">
+        
+            <img src="assets/img/cert/1.png" 
+                 alt="Сделано в Казахстане"
+                 loading="lazy">
+    
+        </div>
+        <div class="diploma-card__description">
+          <p>ТОО «Интаго Казахстан» является официальным брендом «Сделано в Казахстане», что подтверждает происхождение и качество продукции.</p>
+        </div>
+      </div>
+
+      <div class="diploma-card">
+        <div class="diploma-card__logo">
+      
+            <img src="assets/img/cert/2.png" 
+                 alt="Самрук-Қазына"
+                 loading="lazy">
+  
+        </div>
+        <div class="diploma-card__description">
+          <p>Компания включена в реестр отечественных товаропроизводителей фонда «Самрук-Қазына», что подтверждает её надежность и соответствие требованиям государственных и квазигосударственных закупок.</p>
+        </div>
+      </div>
+
+      <div class="diploma-card">
+        <div class="diploma-card__logo">
+          
+            <img src="assets/img/cert/3.png" 
+                 alt="Атамекен"
+                 loading="lazy">
+  
+        </div>
+        <div class="diploma-card__description">
+          <p>Компания обладает Индустриальным сертификатом, подтверждающим статус отечественного производителя и соответствие требованиям Национальной палаты предпринимателей «Атамекен».</p>
+        </div>
+      </div>
+
+      <!-- Остальные дипломы аналогично -->
+      <!-- Второй ряд -->
+      <div class="diploma-card">
+        <div class="diploma-card__logo">
+      
+            <img src="assets/img/cert/4.png" 
+                 alt="Специальная Экономическая Зона"
+                 loading="lazy">
+   
+        </div>
+        <div class="diploma-card__description">
+          <p>Компания является официальным участником АО «Специальная Экономическая Зона «Национальный индустриальный нефтехимический технопарк» (СЭЗ НИНТ), что подтверждает её статус в сфере индустриального производства.</p>
+        </div>
+      </div>
+
+      <div class="diploma-card">
+        <div class="diploma-card__logo">
+          <img src="assets/img/cert/5.png" 
+               alt="Диплом Аспромтранс"
+               loading="lazy">
+        </div>
+        <div class="diploma-card__description">
+          <p>Материалы компании находятся на стадии аппробации в АО «Научный институт КаздорНИИ», что свидетельствует о стремлении к внедрению инновационных решений в инфраструктурные проекты.</p>
+        </div>
+      </div>
+
+      <div class="diploma-card">
+        <div class="diploma-card__logo">
+    
+            <img src="assets/img/cert/6.png" 
+                 alt="Диплом нацпроекта"
+                 loading="lazy">
+
+        </div>
+        <div class="diploma-card__description">
+          <p>Вся продукция ТОО «Интаго Казахстан» имеет декларацию о соответствии, удостоверяющую её качество, безопасность и соответствие национальным стандартам.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Отзывы -->
+<section class="reviews-section" id="reviews">
+  <div class="container">
+    <!-- Заголовок и навигационные кнопки (общие для обеих версий) -->
+    <div class="reviews-title-wrapper justify-content-between align-items-center">
+      <h2>Отзывы наших клиентов</h2>
+      <div class="reviews-nav-controls">
+        <button class="review-nav-btn" id="prevReviewMobile" type="button" data-bs-target="#reviewsCarouselMobile" data-bs-slide="prev">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+        </button>
+        <button class="review-nav-btn" id="nextReviewMobile" type="button" data-bs-target="#reviewsCarouselMobile" data-bs-slide="next">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <!-- для десктопа нужно свои кнопки создать если больше 3 будет дата таргет -->
+      </div>
+    </div>
+
+    <!-- Десктоп-карусель (отображается на md и выше) -->
+    <div id="reviewsCarouselDesktop" class="carousel slide d-none d-md-block" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <!-- Один слайд с отзывами в строке -->
+        <div class="carousel-item active">
+          <div class="row">
+            <!-- Отзыв 1 -->
+            <div class="col-md-4">
+              <div class="review-card" style="background-image: url('assets/img/review/1.jpg');">
+                <div class="review-card-overlay">
+                  <h3>ТОО «Ассана-ДорСтрой»</h3>
+                  <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#review1">
+                      Читать полностью
+                    </button>
+
+                </div>
+              </div>
+            </div>
+            <!-- Отзыв 2 -->
+            <div class="col-md-4">
+              <div class="review-card" style="background-image: url('assets/img/review/2.jpg');">
+                <div class="review-card-overlay">
+                  <h3>ООО «РГК»</h3>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#review2">
+                      Читать полностью
+                    </button>
+                </div>
+              </div>
+            </div>
+            <!-- Отзыв 3 -->
+            <div class="col-md-4">
+              <div class="review-card" style="background-image: url('assets/img/review/3.jpg');">
+                <div class="review-card-overlay">
+                  <h3>ТОО «Ақ Жол Құрылыс»</h3>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#review3">
+                      Читать полностью
+                    </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Дополнительные слайды можно добавить, если отзывов больше -->
+      </div>
+    </div>
+
+    <!-- Мобильная карусель (отображается на xs и sm устройствах) -->
+    <div id="reviewsCarouselMobile" class="carousel slide d-block d-md-none" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <!-- Каждый слайд – один отзыв -->
+        <div class="carousel-item active">
+          <div class="review-card" style="background-image: url('assets/img/review/1.jpg');">
+            <div class="review-card-overlay">
+              <h3>ТОО «Ассана-ДорСтрой»</h3>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#review1">
+                      Читать полностью
+                    </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="review-card" style="background-image: url('assets/img/review/2.jpg');">
+            <div class="review-card-overlay">
+              <h3>ООО «РГК»</h3>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#review2">
+                      Читать полностью
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="review-card" style="background-image: url('assets/img/review/3.jpg');">
+            <div class="review-card-overlay">
+              <h3>ТОО «Ақ Жол Құрылыс»</h3>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#review3">
+                      Читать полностью
+                    </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    <!-- отзыв1 -->
+        <div class="modal fade" id="review1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="reviewModalTitle">ТОО «ТОО Ассана-ДорСтрой»</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                    <div class="modal-review-img" id="reviewModalImage" style="background-image: url(assets/img/review/1.jpg);"></div>
+                    </div>
+                    <div class="px-3">
+                        <p id="reviewModalText">ТОО «Асcана-Дорстрой» выражает благодарность компании «Интаго Казахстан» за своевременную поставку геотекстиля «Интатекс 250» для нашего проекта — капитального ремонта автомобильной дороги «Подъезд к с. Тайсоган». <br> <br>В ходе работ материал показал себя с лучшей стороны: высокая прочность, устойчивость к механическим нагрузкам и отличные дренажные свойства позволили обеспечить надежность и долговечность дорожного покрытия. Продукция полностью соответствует заявленным характеристикам и требованиям строительных стандартов. <br> <br>Отдельно отметим профессиональный подход команды «Интаго Казахстан» — оперативная логистика, грамотные консультации и высокое качество продукции сделали сотрудничество удобным и эффективным. Рекомендуем геотекстиль «Интатекс» как надежный и проверенный материал для дорожного строительства!</p>                       
+                    </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- отзыв2 -->
+        <div class="modal fade" id="review2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="reviewModalTitle">ООО «РГК»</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                    <div class="modal-review-img" id="reviewModalImage" style="background-image: url(assets/img/review/2.jpg);"></div>
+                    </div>
+                    <div class="px-3">
+                        <p id="reviewModalText">ООО «РГК» благодарит компанию «Интаго Казахстан» за надежное сотрудничество и поставку геотекстиля «Интатекс 300» для реализации масштабного проекта — строительства газопровода-отвода от магистрального газопровода «Сахалин — Хабаровск — Владивосток» до государственной границы КНР.<br><br>Экспортируемый геотекстиль «Интатекс 300» продемонстрировал высокие эксплуатационные характеристики, полностью соответствуя требованиям проекта. Материал обладает отличной прочностью, устойчивостью к внешним воздействиям и надежными фильтрационными свойствами, что делает его идеальным решением для использования в сложных инженерных условиях.<br><br> Мы ценим оперативную работу и высокий уровень сервиса со стороны «Интаго Казахстан» и уверены, что наше партнерство будет и дальше способствовать успешной реализации инфраструктурных проектов. Рекомендуем геотекстиль «Интатекс 300» как продукцию, отвечающую международным стандартам качества!</p>                       
+                    </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- отзыв3 -->
+        <div class="modal fade" id="review3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="reviewModalTitle">ТОО «Ақ Жол Құрылыс»</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                    <div class="modal-review-img" id="reviewModalImage" style="background-image: url(assets/img/review/3.jpg);"></div>
+                    </div>
+                    <div class="px-3">
+                        <p id="reviewModalText">ТОО «Ақ Жол Құрылыс» выражает благодарность компании «Интаго Казахстан» за поставку геотекстиля «Интатекс 250» для реконструкции автомобильной дороги Актау – Форт-Шевченко. В процессе выполнения дорожных работ материал показал отличные эксплуатационные характеристики: высокая прочность, устойчивость к растяжению и долговечность обеспечили надежную стабилизацию грунта и продлили срок службы дорожного покрытия. Геотекстиль «Интатекс 250» полностью соответствует строительным нормам и требованиям проекта. Отдельно отмечаем профессионализм команды «Интаго Казахстан» — поставки были организованы своевременно, а качество продукции на высшем уровне. Мы уверены в надежности данного материала и рекомендуем его для использования в дорожном строительстве и инфраструктурных проектах.</p>                       
+                    </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+
+<!-- проекты -->
+<section class="geo-sm-projects-section" id="projects">
+  <div class="geo-sm-projects-container">
+    <h2 class="geo-sm-projects-main-title">Крупные проекты с нашим участием</h2>
+    
+    <div class="geo-sm-projects-nav-controls">
+      <button class="geo-sm-projects-prev-btn" aria-label="Предыдущий проект">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button class="geo-sm-projects-next-btn" aria-label="Следующий проект">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    
+    <div class="geo-sm-projects-carousel-wrapper">
+      <!-- Проект 1 -->
+      <div class="geo-sm-project-card">
+        <div class="geo-sm-project-image" style="background-image: url('assets/img/projects/1.jpeg')"></div>
+        <div class="geo-sm-project-details">
+          <h3 class="geo-sm-project-company">Строительство газопровода-отвода от магистрального газопровода «Сахалин — Хабаровск — Владивосток» до государственной границы КНР</h3>
+          <p class="geo-sm-project-location">📍 Место: Россия, газопровод-отвод от магистрального газопровода «Сахалин — Хабаровск — Владивосток» до госграницы КНР</p>
+          <p class="geo-sm-project-product">Поставка материалов: Геотекстиль нетканый Интатекс 300 – 3 000 000 м²</p>
+        </div>
+      </div>
+      
+      <!-- Проект 2 -->
+      <div class="geo-sm-project-card">
+        <div class="geo-sm-project-image" style="background-image: url('assets/img/projects/2.jpeg"></div>
+        <div class="geo-sm-project-details">
+          <h3 class="geo-sm-project-company">Капитальный ремонт автомобильной дороги «Подъезд к с. Тайсоган»</h3>
+          <p class="geo-sm-project-location">📍 Место: Казахстан, подъездная автодорога к с. Тайсоган </p>
+          <p class="geo-sm-project-product">Поставка материалов: Геотекстиль нетканый Интатекс 300 – 256 256 м²</p>
+        </div>
+      </div>
+      
+      <!-- Проект 3 -->
+      <div class="geo-sm-project-card">
+        <div class="geo-sm-project-image" style="background-image: url('assets/img/projects/3.jpeg')"></div>
+        <div class="geo-sm-project-details">
+          <h3 class="geo-sm-project-company">Строительство железнодорожной линии Дарбаза – Мактаарал</h3>
+          <p class="geo-sm-project-location">📍 Место: Казахстан, железнодорожная линия Дарбаза – Мактаарал</p>
+          <p class="geo-sm-project-product">Поставка материалов: Геотекстиль нетканый Интатекс 300 – 136 000 м²</p>
+        </div>
+      </div>
+      
+      <!-- Проект 4 -->
+      <div class="geo-sm-project-card">
+        <div class="geo-sm-project-image" style="background-image: url('assets/img/projects/4.jpeg')"></div>
+        <div class="geo-sm-project-details">
+          <h3 class="geo-sm-project-company">Реконструкция автомобильной дороги Актау-Форт-Шевченко</h3>
+          <p class="geo-sm-project-location">📍 Место: Казахстан, автодорога Актау-Форт-Шевченко</p>
+          <p class="geo-sm-project-product">Поставка материалов: Геотекстиль нетканый Интатекс 250 – 70 000 м²</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- галерея видео -->
+<section class="video-gallery-section" id="gallery">
+    <div class="video-gallery-container">
+        <div class="d-flex" style="justify-content: space-between; align-items: center;">
+            <h2 class="video-gallery-title">Видео-галерея</h2>
+            <a href="https://www.youtube.com/@Intagokz" class="video-gallery-channel-btn" target="blank">Смотреть все видео YouTube канала<img class="tn-atom__img t-img loaded" data-original="https://static.tildacdn.com/tild3263-6664-4535-b833-376462386264/CaretLeft_3.svg" alt="" imgfield="tn_img_1718741448367" style="" src="https://static.tildacdn.com/tild3263-6664-4535-b833-376462386264/CaretLeft_3.svg"></a>
+        </div>
+        <div class="row">
+            <!-- Видео 1 -->
+            <div class="col-12 col-md-6 mt-2">
+                <div class="row px-2">
+                <div class="col-6 col-md-12 px-1">
+                    <div class="video-gallery-item" style="background-image: url('assets/img/video/1.png');">
+                        <div class="video-gallery-item-content">
+                            <h3 class="video-gallery-item-title">ИНТАГО Казахстан</h3>
+                            <button class="video-gallery-play-btn" data-video-id="mlNDcS3TFMA">
+                                <img src="Button-L_5 1.png" alt="Play">
+                            </button>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-6 col-md-12 glavi px-1">
+                    <!-- Видео 5 -->
+                    <div class="video-gallery-item" style="background-image: url('assets/img/video/6.png');">
+                    <div class="video-gallery-item-content">
+                        <h3 class="video-gallery-item-title">Соглашение</h3>
+                        <button class="video-gallery-play-btn" data-video-id="fJFkpp_Fkmo">
+                            <img src="Button-L_5 1.png" alt="Play">
+                        </button>
+                    </div>                    
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row mt-2">
+                    <div class="col-6 px-1">
+                        <!-- Видео 2 -->
+                        <div class="video-gallery-item" style="background-image: url('assets/img/video/2.png');">
+                            <div class="video-gallery-item-content">
+                                <h3 class="video-gallery-item-title">Официальное открытие ИНТАГО ҚАЗАҚСТАН</h3>
+                                <button class="video-gallery-play-btn" data-video-id="wERjD7G0SGk">
+                                    <img src="Button-L_5 1.png" alt="Play">
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="col-6 px-1">
+                        <!-- Видео 3 -->
+                        <div class="video-gallery-item" style="background-image: url('assets/img/video/3.png');">
+                            <div class="video-gallery-item-content">
+                                <h3 class="video-gallery-item-title">Наше производство</h3>
+                                <button class="video-gallery-play-btn" data-video-id="oz6aHsTlkzs">
+                                    <img src="Button-L_5 1.png" alt="Play">
+                                </button>
+                            </div>
+                        </div>                        
+                    </div>                   
+                </div>
+                <div class="col-12 mt-2">
+                    <!-- Видео 4 -->
+                    <div class="video-gallery-item" style="background-image: url('assets/img/video/4.png');">
+                        <div class="video-gallery-item-content">
+                            <h3 class="video-gallery-item-title">Крупнейший завод по производству полиэтилена</h3>
+                            <button class="video-gallery-play-btn" data-video-id="lwuYwWFLomQ">
+                                <img src="Button-L_5 1.png" alt="Play">
+                            </button>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+
+
+            
+
+
+        </div>
+        
+        <div class="video-gallery-footer">
+            
+        </div>
+    </div>
+    
+    <!-- Попап для видео -->
+    <div class="video-gallery-popup">
+        <div class="video-gallery-popup-overlay"></div>
+        <div class="video-gallery-popup-content">
+            <button class="video-gallery-popup-close">&times;</button>
+            <div class="video-gallery-popup-iframe-container">
+                <iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- новости -->
+<section class="news-section" id="news">
+    <div class="news-container">
+        <div class="news-header">
+            <h2 class="news-title">Новости</h2>
+            <div class="news-header-decoration"></div>
+        </div>
+        
+        <div class="news-grid">
+            <!-- Новость 1 (с изображением) -->
+            <div class="news-item">
+                <div class="news-item-image" style="background-image: url('assets/img/car4.jpeg');"></div>
+                <div class="news-item-content">
+                    <h3 class="news-item-title">В Атырау ТОО «Интаго Казахстан» освоило производство полиэфирных геосинтетических материалов</h3>
+                    <p class="news-item-excerpt">Новый завод расположен на территории специальной экономической зоны «НИНТ»....</p>
+                    <a target="blank" href="https://kazpravda.kz/n/v-atyrau-too-intago-kazahstan-osvoilo-proizvodstvo-poliefirnyh-geosinteticheskih-materialov/">
+                        <button class="btn text-white" style="background: #0A6EF7">
+                            Читать полностью
+                        </button>
+                    </a>
+                <!--                   <button class="news-read-more" 
+                            data-news-id="1" 
+                            data-content-type="text" 
+                            data-image="images/news1-full.jpg">
+                        Читать полностью
+                    </button> -->
+                </div>
+            </div>
+            
+            <!-- Новость 2 (с видео) -->
+            <div class="news-item">
+                <div class="news-item-image" style="background-image: url('assets/img/news2.jpg');"></div>
+                <div class="news-item-content">
+                    <h3 class="news-item-title">В Атырау местные компании выбирают отечественное сырьё</h3>
+                    <p class="news-item-excerpt">В В Атырау члены диалоговой площадки при Научно-исследовательском и проектном институте (НИПИ) «Каспиймунайгаз» и представители оператора проекта ...</p>
+
+                    <a target="blank" href="https://rus.caspianlife.kz/29886/">
+                        <button class="btn text-white" style="background: #0A6EF7">
+                            Читать полностью
+                        </button>
+                    </a>                    
+            <!--                     <button class="news-read-more" 
+                            data-news-id="2" 
+                            data-content-type="video" 
+                            data-video-id="dQw4w9WgXcQ">
+                        Смотреть видео
+                    </button> -->
+                </div>
+            </div>
+            
+            <!-- Новость 3 (с PDF) -->
+            <div class="news-item">
+                <div class="news-item-image" style="background-image: url('assets/img/3.webp');"></div>
+                <div class="news-item-content">
+                    <h3 class="news-item-title">Развитие промышленности в Атырауской области</h3>
+                    <p class="news-item-excerpt">Министр промышленности и строительства РК Канат Шарлапаев в рамках рабочей поездки в Атыраускую область направился в СЭЗ «НИНТ»...</p>
+
+                    <a target="blank" href="https://dknews.kz/ru/ekonomika/348539-novye-proekty-razvitie-promyshlennosti-v-atyrauskoy">
+                        <button class="btn text-white" style="background: #0A6EF7">
+                            Читать полностью
+                        </button>
+                    </a>                      
+            <!--                     <button class="news-read-more" 
+                            data-news-id="3" 
+                            data-content-type="pdf" 
+                            data-pdf-url="catalog2023.pdf">
+                        Открыть PDF
+                    </button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Попап для контента -->
+    <div class="news-popup">
+        <div class="news-popup-overlay"></div>
+        <div class="news-popup-content">
+            <button class="news-popup-close">&times;</button>
+            <div class="news-popup-body">
+                <!-- Для текстового контента -->
+                <div class="news-popup-text-content" style="display: none;">
+                    <div class="news-popup-image-wrapper">
+                        <img src="" alt="" class="news-popup-image">
+                    </div>
+                    <h3 class="news-popup-title"></h3>
+                    <div class="news-popup-date">Дата публикации: <span></span></div>
+                    <div class="news-popup-text"></div>
+                </div>
+                
+                <!-- Для видео -->
+                <div class="news-popup-video-content" style="display: none;">
+                    <div class="news-popup-video-wrapper">
+                        <iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="news-popup-video-title"></h3>
+                </div>
+                
+                <!-- Для PDF -->
+                <div class="news-popup-pdf-content" style="display: none;">
+                    <div class="news-popup-pdf-wrapper">
+                        <iframe width="100%" height="600px" frameborder="0"></iframe>
+                    </div>
+                    <h3 class="news-popup-pdf-title"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- партнеры -->
+<div class="supply-countries" id="partners">
+  <div class="supply-countries__container">
+    <h2 class="supply-countries__title">Наши партнеры</h2>
+
+    <div class="container">   
+       <section class="customer-logos slider">
+          <div class="slide"><img src="assets/img/clients/1.jpg"></div>
+          <div class="slide"><img src="assets/img/clients/2.jpg"></div>
+          <div class="slide"><img src="assets/img/clients/3.jpg"></div>
+          <div class="slide"><img src="assets/img/clients/4.jpg"></div>
+          <div class="slide"><img src="assets/img/clients/5.jpg"></div>
+          <div class="slide"><img src="assets/img/clients/6.jpg"></div>
+          <div class="slide"><img src="assets/img/clients/7.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/9.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/10.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/11.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/12.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/13.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/14.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/15.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/16.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/17.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/18.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/19.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/20.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/21.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/22.jpg"></div>
+            <div class="slide"><img src="assets/img/clients/23.jpg"></div>
+       </section>
+    </div>
+  </div>
+</div>
+
+<section class="faq-section" id="faq">
+  <div class="faq-container">
+    <h2 class="faq-title">Часто задаваемые вопросы</h2>
+    
+    <div class="faq-accordion">
+      <!-- Вопрос 1 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Какой срок поставки продукции?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Стандартный срок — 3–7 рабочих дней. Точные даты уточняйте у менеджера.</p>
+        </div>
+      </div>
+      
+      <!-- Вопрос 2 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Какие способы оплаты вы принимаете?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Только безналичный расчет:
+            <br>
+                По счету (Казахстан и СНГ).
+            <br>
+            Валютный перевод (другие страны).</p>
+        </div>
+      </div>
+      
+      <!-- Вопрос 3 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Доставляете ли в регионы и за границу?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Да, по всему Казахстану, в СНГ и другие страны. Стоимость и сроки рассчитываются индивидуально.</p>
+        </div>
+      </div>
+      
+      <!-- Вопрос 4 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Какие гарантии?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Продукция сертифицирована, гарантия от 1 года. Условия указаны в договоре.</p>
+        </div>
+      </div>
+
+        <!-- Вопрос 5 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Как заказать?          
+        <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Позвонить менеджеру
+            <br>
+            Отправить заявку на email
+            <br>
+            Заполнить форму на сайте</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-form-section">
+  <div class="contact-form-container">
+    <div class="contact-form-content">
+      <div class="contact-form-text">
+        <h2 class="contact-form-title">Остались вопросы? Свяжитесь с нами!</h2>
+        <p class="contact-form-subtitle">Пожалуйста, заполните форму обратной связи, выберите необходимый материал и мы отправим вам коммерческое предложение.</p>
+      </div>
+
+      <form class="contact-form" id="feedback-form">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Имя" required class="form-input">
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="E-mail" required class="form-input">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="Телефон" required class="form-input">
+          </div>
+          <div class="form-group">
+            <select name="density" class="form-select" required>
+              <option value="">Выберите материал</option>
+              <option value="Геотекстиль">Геотекстиль</option>
+              <option value="Мембрана">Геомембрана</option>
+              <option value="Геосетка">Геосетка</option>
+              <option value="Георешетка">Георешетка</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn">Отправить заявку</button>
+
+        <div class="form-footer">
+          <p class="privacy-text">
+            Нажимая кнопку, вы даете <a href="policy.html" class="privacy-link">согласие на обработку персональных данных</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <div class="contact-form-image">
+      <img src="assets/img/4J1A6728_pixian_ai.png" alt="Консультант" class="form-image">
+    </div>
+  </div>
+</section>
+
+<section class="contacts-block-section" id="contacts">
+  <div class="contacts-block-container">
+    <div class="contacts-block-header">
+      <h2 class="contacts-block-title">Контакты</h2>
+    </div>
+
+    <div class="contacts-block-content">
+      <div class="contacts-block-info">
+        <div class="contacts-block-group">
+          <h3 class="contacts-block-label">Клиентам:</h3>
+          <div class="contacts-block-item">
+            <a href="tel:+77122303225" class="contacts-block-phone">+7 7122 30 32 25</a><br>
+            <a href="tel:+77789303999" class="contacts-block-phone">+7 778 930 39 99</a>
+          </div>
+        </div>
+
+        <div class="contacts-block-group">
+          <h3 class="contacts-block-label">E-mail:</h3>
+          <div class="contacts-block-item">
+            <a href="mailto:Office@intagokazakhstan.kz" class="contacts-block-email">Office@intagokazakhstan.kz</a>
+          </div>
+        </div>
+
+        <div class="contacts-block-social">
+          <a href="https://wa.me/77789303999" target="_blank" rel="noopener" class="contacts-block-social-link">
+            <img src="assets/img/wa.png" alt="WhatsApp" class="contacts-block-social-icon">
+          </a>
+            <a href="https://www.instagram.com/intago.kz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" class="contacts-block-social-link">
+                <img src="assets/img/ins.png" alt="Instagram" class="contacts-block-social-icon">
+          </a>
+        <a href="" target="_blank" rel="noopener" class="contacts-block-social-link">
+            <img src="assets/img/tele.png" alt="Telegram" class="contacts-block-social-icon">
+          </a>
+          <a href="mailto:Office@intagokazakhstan.kz" target="_blank" rel="noopener" class="contacts-block-social-link">
+            <img src="assets/img/email.png" alt="Telegram" class="contacts-block-social-icon">
+          </a>
+        </div>
+      </div>
+
+      <div class="contacts-block-products">
+        <h2 class="contacts-block-products-title">Также у нас можно купить</h2>
+        
+        <div class="contacts-block-products-grid">
+          <a class="contacts-block-product">
+            <div class="contacts-block-product-image-wrap">
+              <img src="assets/img/other1.png" alt="Геомембрана" class="contacts-block-product-img">
+            </div>
+            <h3 class="contacts-block-product-name">Геомембрана</h3>
+          </a>
+          
+          <a class="contacts-block-product">
+            <div class="contacts-block-product-image-wrap">
+              <img src="assets/img/other2.png" alt="Геосетка" class="contacts-block-product-img">
+            </div>
+            <h3 class="contacts-block-product-name">Геосетка</h3>
+          </a>
+          
+          <a  class="contacts-block-product">
+            <div class="contacts-block-product-image-wrap">
+              <img src="assets/img/other3.jpg" alt="Георешетка" class="contacts-block-product-img">
+            </div>
+            <h3 class="contacts-block-product-name">Георешетка</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="contacts-block-footer">
+      <div class="contacts-block-footer-content">
+        <p class="contacts-block-copyright">© 2025 Интаго Казахстан. Все права защищены.</p>
+        <div class="contacts-block-footer-links">
+          <a href="policy.html" class="contacts-block-footer-link">Политика конфиденциальности</a>
+          <a href="" class="contacts-block-footer-link">Сайт компании Интаго Казахстан</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
